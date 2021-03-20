@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TeamPreview.TeamPreviewActivity"></activity>
         <activity android:name=".TeamSelection.TeamSelectionActivity" />
         <activity android:name=".Matches.Sports" />
         <activity android:name=".SignInActivity">

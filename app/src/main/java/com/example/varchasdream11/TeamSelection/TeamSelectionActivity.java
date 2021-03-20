@@ -241,6 +241,9 @@ public class TeamSelectionActivity extends AppCompatActivity {
                                             ;
                                         }
                                     }
+                                    FirebaseDatabase.getInstance().getReference().child("User matches").child(user.getUid()).child(team1_name + "vs" + team2_name).child("teamName1").setValue(team1_name);
+                                    FirebaseDatabase.getInstance().getReference().child("User matches").child(user.getUid()).child(team1_name + "vs" + team2_name).child("teamName2").setValue(team2_name);
+
 //
                                     Intent intent = new Intent(TeamSelectionActivity.this, MainActivity.class);
                                     startActivity(intent);
@@ -395,6 +398,9 @@ public class TeamSelectionActivity extends AppCompatActivity {
                                             ;
                                         }
                                     }
+                                    FirebaseDatabase.getInstance().getReference().child("User matches").child(user.getUid()).child(team1_name + "vs" + team2_name).child("teamName1").setValue(team1_name);
+                                    FirebaseDatabase.getInstance().getReference().child("User matches").child(user.getUid()).child(team1_name + "vs" + team2_name).child("teamName2").setValue(team2_name);
+
                                     Intent intent = new Intent(TeamSelectionActivity.this, MainActivity.class);
                                     startActivity(intent);
                                 }
