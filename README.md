@@ -3,3 +3,21 @@
 # Varchas-Dream-11
 An android app where participants will make their teams for every match in the tournament and then on the basis of performances of players, they will get points. Top few contestants will be eligible for prizes.
 
+## Features
+* New users can register and login to the application using their username and password. 
+* New user can sign in with Google too
+* 12 different sports in which users can participate
+* Users can see the complete contest listings for the matches with details like team names and time of the match
+* User can see the matches in which he participated along with the points he scored in that match
+
+
+## Installation
+1. Click on the green-colored Code button in the above repository and copy the hyperlink
+2. Open Android Studio and go to File > New > Project from Version Control
+3. In the Version control choose Git from the drop-down menu
+4. Then paste the link you copied in the first step in the URL and choose your Directory
+5. Click on the Clone button and you are done
+
+## Credits
+* [Gaurav Sen](https://github.com/VortexExpansion)
+* [Chinmay Borale](https://github.com/bchinmay-star)
