@@ -8,6 +8,7 @@ An android app where participants will make their teams for every match in the t
 * New user can sign in with Google too
 * 12 different sports in which users can participate
 * Users can see the complete contest listings for the matches with details like team names and time of the match
+* Users need to select a team with players from both the teams with a restriction on the number of players that can be selected from a particular team. This restriction depends on the particular sport. For example in cricket and football user can select a maximum of 7 players from a team.
 * User can see the matches in which he participated along with the points he scored in that match
 
 
